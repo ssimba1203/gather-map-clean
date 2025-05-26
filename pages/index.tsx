@@ -197,7 +197,12 @@ export default function Home() {
   return (
     <div>
       <h1>모임 지도앱</h1>
-
+      <p style={{ marginTop: '-10px', marginBottom: '20px', fontSize: '14px', lineHeight: '1.5' }}>
+      친구들이랑 어디서 모여야 할 지 정하기 성가시죠?<br />
+      이게 대신 해드립니다. 친구들 주소(전철역, 대략적인 지역) 적으시면,<br />
+      추천 지역을 알려드려요.<br />
+      <strong>피드백은 아주 감사히 받겠습니다 🙏<br />– 천성득 올림 –</strong>
+      </p>
       <label>카테고리:
         <select
           value={selectedCategory}
